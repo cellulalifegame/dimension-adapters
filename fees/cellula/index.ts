@@ -8,7 +8,7 @@ const LIFE_ADDRESS = "0xabd1780208a62b9cbf9d3b7a1617918d42493933";
 const LIFE_ABI = "event FeedEvent(uint256 tokenId, uint256 startTime, uint256 workTime)"
 
 const methodology = {
-  Fees: "The cost of renting a Cell.",
+  Fees: "The sum of life charging fees and life mint fees.",
   Revenue: "The sum of life charging fees and life mint fees.",
 };
 const adapter: Adapter = {
